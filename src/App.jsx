@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import hrimg from '../images/pattern-divider-desktop.svg';
 import hrimgmobile from '../images/pattern-divider-mobile.svg';
 import dice from '../images/icon-dice.svg';
