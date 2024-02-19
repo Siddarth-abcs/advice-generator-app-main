@@ -35,7 +35,8 @@ function App() {
           <h4 className='api-head'>Advice # {advice && advice.slip && advice.slip.id}</h4>
           <h1 className='api-text'>{advice && advice.slip && advice.slip.advice}</h1>
           <img src={windowWidth > 768 ? hrimg : hrimgmobile} alt="" className='hr-img' />
-          <div onClick={() => fetchAdvice()} className='api-btn' style={{backgroundImage:`url(${dice})`}}>
+          <div onClick={() => fetchAdvice()} className='api-btn'>
+            <img src={dice} alt="" srcset="" />
           </div>
         </div>
       </main>
